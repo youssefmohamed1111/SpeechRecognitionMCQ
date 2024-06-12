@@ -14,7 +14,7 @@ This project implements a Multiple Choice Questions (MCQ) test with speech recog
 
 - Ensure you have Node.js and npm installed.
 - Navigate to the frontend directory.
-- Install the required packages ``` npm install```.
+- Install the required packages ```npm install```.
 - Start the React development server: npm start.
 ## Using the Application:
 ```
