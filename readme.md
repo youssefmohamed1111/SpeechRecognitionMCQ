@@ -16,8 +16,8 @@ This project implements a Multiple Choice Questions (MCQ) test with speech recog
 - Navigate to the frontend directory.
 - Install the required packages ``` npm install```.
 - Start the React development server: npm start.
-```
 ## Using the Application:
+```
 1) Open your browser and navigate to http://localhost:3000.
 2) The application will display a question with multiple choices.
 3) Click on the "Answer with Speech" button to start the speech recognition.
