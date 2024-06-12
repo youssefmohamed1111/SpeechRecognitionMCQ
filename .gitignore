@@ -1,0 +1,21 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# React
+node_modules/
+node_modules
+build/
+.DS_Store
+
+# IDE/Editor specific
+.vscode/
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
