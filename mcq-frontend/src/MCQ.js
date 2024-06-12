@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
-
 const MCQ = () => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -14,7 +13,7 @@ const MCQ = () => {
 
   const fetchQuestions = () => {
     axios
-      .get("http://localhost:8000/quiz/question/")
+      .get("http://localhost:8000/quiz/questions/")
       .then((response) => {
         setQuestions(response.data);
         console.log("Questions fetched:", response.data);
@@ -134,3 +133,4 @@ const MCQ = () => {
 };
 
 export default MCQ;
+// I usually would create a Folder named "Components" and add all of my components but here we have only one component, so it is unnecessary
